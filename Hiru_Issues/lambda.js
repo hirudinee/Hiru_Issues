@@ -4,8 +4,10 @@ const ddb = new AWS.DynamoDB.DocumentClient();
 
 
 ddb.get({
-	TableName: 'ThuvvaTable',
-	Key: { 'ID': 'f' }
+	TableName: 'samplehiru',
+	Key: {
+		'1': '1'
+	}
 }, function (err, data) {
 	if (err) {
 		//handle error
