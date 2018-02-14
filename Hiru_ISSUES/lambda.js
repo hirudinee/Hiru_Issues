@@ -13,9 +13,9 @@ exports.handler = function (event, context, callback) {
 			}
 		}
 	}, function (data) {
-		// your logic (logging etc) to handle successful message delivery, should be here
+		console.log(data);
 	}, function (error) {
-		// your logic (logging etc) to handle failures, should be here
+		console.log(error);
 	});
 
 
