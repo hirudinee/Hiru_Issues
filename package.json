@@ -1,6 +1,6 @@
 {
-  "name": "Hiru_Issues",
-  "version": "1.0.0",
+  "name": "Hiru_ISSUES",
+  "version": "0.7.0",
   "dependencies": {
     "aws-sdk": "2.176.0",
     "@slappforge/slappforge-sdk": "0.0.3"
